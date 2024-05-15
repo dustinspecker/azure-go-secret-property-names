@@ -38,7 +38,7 @@ func main() {
 
 While using `GetAll`, you may decide there are a number of them that you don't believe are secret for your use cases.
 
-`GetSubet` allows you to filter out the secret property names you don't believe are secret.
+`GetSubset` allows you to filter out the secret property names you don't believe are secret.
 
 ```go
 import (
